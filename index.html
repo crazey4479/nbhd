@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="box">
+            <p class="welcome">welcome</p>
+            <p class="desc">login to access the app</p>
+            <form class="form" method="POST" onsubmit="return false">
+                <input class="username" type="text" placeholder="username">
+                <input class="password" type="password" placeholder="password">
+                <span class="error-msg">Incorrect username or password.</span>
+                <button class="text" onclick="login()">login</button>
+            </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="login.js"></script>
+    </body>
+</html>
