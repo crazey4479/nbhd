@@ -1,3 +1,3 @@
 # nbhd
-login: root
-password: 1234
+# login: root
+# password: 1234
